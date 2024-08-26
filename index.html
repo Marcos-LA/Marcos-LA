@@ -1,46 +1,118 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Marcos Vinicius</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM1z5ZXLVUfID5OOlt/9wQfW0fto0N6sVB26azK" crossorigin="anonymous">
+    <title>Marcos's Portfolio - One Page</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
-    <header>
-        <h1>Marcos Vinicius da Silva Aleixo</h1>
-        <p>Desenvolvedor Web</p>
-    </header>
-    <section class="bio">
-        <h2>Sobre Mim</h2>
-        <p>Data de Nascimento: 20/08/2002</p>
-        <p>Sou estudante de Análise e Desenvolvimento de Sistemas, com previsão de término no próximo ano. Tenho certificação em HTML e CSS e estou atualmente cursando JavaScript para expandir meus conhecimentos em desenvolvimento web.</p>
-    </section>
-    <section class="certifications">
-        <h2>Certificações</h2>
-        <ul>
-       <a href="https://drive.google.com/file/d/1Xxr76itQW1RxvhjuoaxBuRVCFoI5radX/view?usp=drive_link"><li>Certificação em HTML</li></a>
-            <li>Certificação em CSS</li>
-            <li>Cursando JavaScript</li>
-        </ul>
-    </section>
-    <section class="education">
-        <h2>Educação</h2>
-        <p>Faculdade de Análise e Desenvolvimento de Sistemas (ADS)</p>
-        <p>Previsão de Conclusão: Próximo ano</p>
-    </section>
-    <section class="social-links">
-        <h2>Conecte-se comigo</h2>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-    </section>
-    <footer>
-        <p>&copy; 2024 Marcos Vinicius da Silva Aleixo</p>
-    </footer>
+    <div class="container">
+
+        <!--WIDGET 1-->
+        <div id="widget1" class="top">
+            <div class="user card">
+                <div class="content-user">
+                    <div class="img-user">
+                        <img src="image/Imagem do WhatsApp de 2024-07-21 à(s) 09.06.39_9d013f34.jpg" alt="my selfie">
+                    </div>
+                    <div class="info-user">
+                        <h1>Marcos Vinícius da Silva Aleixo</h1>
+                        <span></span>
+                        <p>
+                            Desenvolvedor Full Stack em início de carreira, atualmente cursando Análise e Desenvolvimento de Sistemas. Tenho conhecimento em JavaScript, Python, 
+                            CSS e HTML, e sou motivado a aplicar essas habilidades em projetos reais. Estou sempre em busca de desafios que me permitam crescer profissionalmente e contribuir com soluções criativas.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projeto card">
+                <div class="content-projeto">
+                    <span class="text-projeto">Último projeto</span>
+                    <div class="img-projeto">
+                        <img src="image/projeto-prático.png" alt="projeto">
+                    </div>
+                    <div class="btn-projeto">
+                        <a href="https://marcos-la.github.io/Projects-Marcos/" target="_blank" class="btn">Acesse o site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--WIDGET 2-->
+        <div id="widget2" class="center">
+            <div class="redes-sociais card">
+                <div class="box-social"><a href="https://github.com/Marcos-LA" target="_blank"><i class="fab fa-github"></i></a></div>
+                <div class="box-social"><a href="https://www.linkedin.com/in/marcosviniciusaleixo/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+                <div class="box-social"><a href="https://www.instagram.com/marcosvini.zlg/" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                <div class="box-social"><a href="https://www.tiktok.com/@marcos.zlg" target="_blank"><i class="fab fa-tiktok"></i></a></div>
+            </div>
+
+            <div class="skills card">
+                <div class="content-skills">
+                    <div class="text-skills">
+                        <span>My Skills</span>
+                    </div>
+                    <div class="skills-icons">
+                        <i class="fab fa-html5"></i>
+                        <i class="fab fa-css3-alt"></i>
+                        <i class="fab fa-js"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--WIDGET 3-->
+        <div id="widget3" class="bottom">
+            <div class="servicos card">
+                <div class="content-servicos">
+                    <div class="text-servicos">
+                        <h1>Serviços</h1>
+                        <span>Serviços que vão posicionar sua empresa no mundo digital</span>
+                    </div>
+
+                    <div class="servicos-box">
+                        <div class="item-servico">
+                            <i class="fas fa-code"></i>
+                            <span>Criação de sites</span>
+                        </div>
+                        <div class="item-servico">
+                            <i class="fas fa-headset"></i>
+                            <span>Suporte e manutenção</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contato card">
+                <div class="content-contato">
+                    <div class="text-contato">
+                        <h1>Contato</h1>
+                        <span>Deixe-me mostrar o potêncial digital que sua empresa tem com um site único!</span>
+                    </div>
+
+                    <div class="lista-contato">
+                        <a href="mailto:marcosviniciusaleixo@hotmail.com">marcosviniciusaleixo@hotmail.com</a>
+                        <a href="tel:+5527998390193">+55 27 99839-0193</a>
+                    </div>
+                    <div class="btn-contato">
+                        <a href="https://www.linkedin.com/in/marcosviniciusaleixo/"  target="_blank" class="btn2">Fale comigo agora!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
